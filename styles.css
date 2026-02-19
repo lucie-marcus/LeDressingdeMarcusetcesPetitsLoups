@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #fdfbf8;
+    color: #4a4a4a;
+}
+
+header {
+    background: #efe6dc;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+
+header span {
+    font-size: 0.8em;
+}
+
+.slogan {
+    font-size: 1em;
+    color: #6b6b6b;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+.categories {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    width: 180px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.vinted {
+    background: #f3eee8;
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #c8a97e;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #b18f66;
+}
+
+footer {
+    background: #efe6dc;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
